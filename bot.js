@@ -7,7 +7,7 @@ var usage = `\`${prefix}bc <content>\``
 client.on('message' , message => {
       if(message.author.bot) return;
      
-      if(message.content.startsWith(prefix + "bcrole")) {
+      if(message.content.startsWith(prefix + "bc")) {
         if (!message.member.hasPermission("ADMINISTRATOR"))  return;
         let args = message.content.split(" ").slice(2);
      var codes = args.join(' ')
@@ -33,4 +33,4 @@ client.on('message' , message => {
     
     
     
-    client.login("")
+    client.login("NjM4NDkxNDY4MTgwMzU3MTI2.XbdgTg.UGJYVEm1qPCDcfop9lGBG1X5EAc")
